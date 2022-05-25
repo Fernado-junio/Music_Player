@@ -1,0 +1,70 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\junio\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add react-native-community
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\OpenJDK\openjdk-11.0.14.1_1\bin;C:\Program Files\Git\cmd;C:\Users\junio\AppData\Local\Microsoft\WindowsApps;C:\Users\junio\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\junio\AppData\Roaming\npm;C:\Program Files\heroku\bin;C:\Users\junio\AppData\Local\Android\Sdk\platform-tools
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  16.14.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/react-native-community: Not found
+      at Request.params.callback [as _callback] (C:\Users\junio\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66138:18)
+      at Request.self.callback (C:\Users\junio\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140883:22)
+      at Request.emit (node:events:526:28)
+      at Request.<anonymous> (C:\Users\junio\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141855:10)
+      at Request.emit (node:events:526:28)
+      at IncomingMessage.<anonymous> (C:\Users\junio\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141777:12)
+      at Object.onceWrapper (node:events:645:28)
+      at IncomingMessage.emit (node:events:538:35)
+      at endReadableNT (node:internal/streams/readable:1345:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "@react-native-async-storage/async-storage": "~1.17.3",
+      "@react-native-community/masked-view": "0.1.10",
+      "@react-native-community/slider": "^3.0.3",
+      "@react-navigation/bottom-tabs": "^5.11.2",
+      "@react-navigation/native": "^5.8.10",
+      "@react-navigation/stack": "^5.14.5",
+      "expo": "^45.0.4",
+      "expo-av": "~8.7.0",
+      "expo-media-library": "~10.0.0",
+      "expo-status-bar": "~1.0.3",
+      "react": "^16.13.1",
+      "react-dom": "^16.13.1",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-40.0.1.tar.gz",
+      "react-native-gesture-handler": "~1.8.0",
+      "react-native-reanimated": "^2.8.0",
+      "react-native-safe-area-context": "^3.1.9",
+      "react-native-screens": "~2.15.0",
+      "react-native-web": "^0.17.7",
+      "recyclerlistview": "^3.0.5"
+    },
+    "devDependencies": {
+      "@babel/core": "~7.9.0"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
